@@ -2,7 +2,7 @@
 """
 =============================================================
   SECURITY LOG ANALYSER & THREAT DETECTOR
-  Author: [Your Name]
+  Author: Samagna Pandiri
   Description: Analyses authentication logs to detect
                suspicious activity like brute force attacks,
                privilege escalation, and unknown IP logins.
