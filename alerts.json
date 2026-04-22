@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-04-15T23:19:05.117234",
+  "total_alerts": 5,
+  "alerts": [
+    {
+      "severity": "HIGH",
+      "threat_type": "BRUTE FORCE ATTACK",
+      "ip": "203.0.113.42",
+      "detail": "6 failed login attempts detected from 203.0.113.42",
+      "users_targeted": [
+        "root"
+      ],
+      "first_seen": "Jan 10 08:03:45",
+      "last_seen": "Jan 10 08:03:50"
+    },
+    {
+      "severity": "HIGH",
+      "threat_type": "BRUTE FORCE ATTACK",
+      "ip": "45.33.32.156",
+      "detail": "5 failed login attempts detected from 45.33.32.156",
+      "users_targeted": [
+        "hacker"
+      ],
+      "first_seen": "Jan 10 09:00:01",
+      "last_seen": "Jan 10 09:00:05"
+    },
+    {
+      "severity": "HIGH",
+      "threat_type": "BRUTE FORCE ATTACK",
+      "ip": "198.51.100.77",
+      "detail": "8 failed login attempts detected from 198.51.100.77",
+      "users_targeted": [
+        "root"
+      ],
+      "first_seen": "Jan 10 10:00:00",
+      "last_seen": "Jan 10 10:00:07"
+    },
+    {
+      "severity": "MEDIUM",
+      "threat_type": "EXTERNAL IP LOGIN",
+      "ip": "203.0.113.42",
+      "detail": "Successful login by 'admin' from external IP 203.0.113.42",
+      "user": "admin",
+      "timestamp": "Jan 10 11:00:00"
+    },
+    {
+      "severity": "MEDIUM",
+      "threat_type": "PRIVILEGE ESCALATION",
+      "ip": "localhost",
+      "detail": "Sudo command executed: /bin/bash",
+      "timestamp": "Jan 10 09:05:00"
+    }
+  ]
+}

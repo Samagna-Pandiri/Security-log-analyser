@@ -1,0 +1,47 @@
+============================================================
+       SECURITY LOG ANALYSIS REPORT
+       Generated: 2026-04-15 23:19:05
+       Log File:  logs/sample_auth.log
+============================================================
+
+[ SUMMARY ]
+  Total Events Parsed     : 30
+  Successful Logins       : 6
+  Failed Login Attempts   : 23
+  Privilege Escalations   : 1
+  HIGH Severity Alerts    : 3
+  MEDIUM Severity Alerts  : 2
+
+[ ALERTS ]
+
+  [1] HIGH — BRUTE FORCE ATTACK
+      IP      : 203.0.113.42
+      Detail  : 6 failed login attempts detected from 203.0.113.42
+      Targets : root
+      Window  : Jan 10 08:03:45 → Jan 10 08:03:50
+
+  [2] HIGH — BRUTE FORCE ATTACK
+      IP      : 45.33.32.156
+      Detail  : 5 failed login attempts detected from 45.33.32.156
+      Targets : hacker
+      Window  : Jan 10 09:00:01 → Jan 10 09:00:05
+
+  [3] HIGH — BRUTE FORCE ATTACK
+      IP      : 198.51.100.77
+      Detail  : 8 failed login attempts detected from 198.51.100.77
+      Targets : root
+      Window  : Jan 10 10:00:00 → Jan 10 10:00:07
+
+  [4] MEDIUM — EXTERNAL IP LOGIN
+      IP      : 203.0.113.42
+      Detail  : Successful login by 'admin' from external IP 203.0.113.42
+      Time    : Jan 10 11:00:00
+
+  [5] MEDIUM — PRIVILEGE ESCALATION
+      IP      : localhost
+      Detail  : Sudo command executed: /bin/bash
+      Time    : Jan 10 09:05:00
+
+============================================================
+  END OF REPORT
+============================================================
